@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EquipLogistics" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.EquipLogistics" parent="Base.Theme.EquipLogistics" />
+
+    <style name="title_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/h1</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="subtitle_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/h1</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="solid_generic_button_style" parent="Theme.MaterialComponents">
+        <item name="android:height">60dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/button_text</item>
+    </style>
+
+    <style name="outline_generic_button_style" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:height">60dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/button_text</item>
+    </style>
+
+</resources>

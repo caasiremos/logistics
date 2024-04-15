@@ -23,5 +23,9 @@ class LoginFragment : Fragment() {
         binding.btnGoToRegister.setOnClickListener {
             findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToRegisterFragment2())
         }
+
+        binding.btnLogin.setOnClickListener {
+            findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToDashboardFragment())
+        }
     }
 }
